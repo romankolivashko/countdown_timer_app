@@ -21,14 +21,17 @@ function countdown() {
   const seconds = Math.floor(totalSeconds) % 60;
 
   daysElem.innerHTML = days;
-  hoursElem.innerHTML = hours;
-  minutesElem.innerHTML = minutes;
-  secondsElem.innerHTML = seconds;
+  hoursElem.innerHTML = formatTime(hours);
+  minutesElem.innerHTML = formatTime(minutes);
+  secondsElem.innerHTML = formatTime(seconds);
 
   // console.log(newYearsDate - currentDate);
   console.log(days, hours, minutes, seconds);
 }
 
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
 //initial call
 countdown();
 setInterval(countdown, 1000);
