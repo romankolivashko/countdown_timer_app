@@ -23,7 +23,7 @@ function countdown() {
   daysElem.innerHTML = days;
   hoursElem.innerHTML = hours;
   minutesElem.innerHTML = minutes;
-  secondsElem.innerHTML - seconds;
+  secondsElem.innerHTML = seconds;
 
   // console.log(newYearsDate - currentDate);
   console.log(days, hours, minutes, seconds);
