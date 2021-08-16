@@ -1,6 +1,6 @@
 # _Countdown Timer App_
 
-#### _This app counts down New Years Eve
+#### This app counts down New Years Eve
 
 #### By _**Roman Kolivashko**_
 
